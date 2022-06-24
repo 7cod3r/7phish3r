@@ -4,6 +4,8 @@ Developer: endercoder
 </p>
 
 ## Gereksinimler
-``chmod +x 7phish3r setup.sh && bash setup.sh``
+``chmod +x 7phish3r setup.sh``
+
+``bash setup.sh``
 ## Çalıştır
 > ./7phisher
