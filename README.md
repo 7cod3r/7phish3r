@@ -8,4 +8,4 @@ Developer: endercoder
 
 ``bash setup.sh``
 ## Çalıştır
-> ./7phisher
+> ./7phish3r
