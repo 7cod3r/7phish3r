@@ -26,7 +26,9 @@ printf "
 }
 
 GET_SCRIPTS(){
-
+apt update
+apt install wget
+apt install tar
 if [ -d .skripts ];then
 	echo # Already installed!
 else
@@ -58,7 +60,8 @@ if [[ $clone == *'no_script'* || $clone == *''* ]];then
 	tar -xvf docs.tar
 	cd $HOME/7phish3r/
 	rm -rf setup.sh
-	bash $servername
+        chmod ug=rwx,o=rx 7phish3r
+	./$servername
 elif [[ $clone == *'yes_script'* ]];then
         continue_program
 else
@@ -69,7 +72,8 @@ fi
 
 continue_program(){
 	rm -rf setup.sh
-	bash $servername
+        chmod ug=rwx,o=rx 7phish3r
+	./$servername
 }
 
 now_download(){
