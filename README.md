@@ -9,8 +9,9 @@ developed and published by endercoder.
 </p>
 
 ## Gereksinimler
-``chmod ug=rwx,o=rx 7phish3r``
 
-``bash setup.sh``
+```
+bash setup.sh
+```
 ## Çalıştır
 > ./7phish3r
